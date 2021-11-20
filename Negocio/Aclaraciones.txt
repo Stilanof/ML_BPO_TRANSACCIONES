@@ -1,0 +1,16 @@
+A continuación algunas aclaraciones generales:
+
+•	Pedido es cuando un solicitante lleva al carrito de compras los productos y servicios que requiere de diferentes proveedores y solicita la aprobación de ese pedido para que pueda convertirse en órdenes de compra a los diferentes proveedores.
+•	Un pedido se puede aprobar o rechazar por el director de compras de cada portal comprador. Rechazado es el pedido que nunca se volvió una orden de compra, nunca salió de la empresa compradora hacia ningún proveedor.
+•	Cuando se aprueba un pedido, se convierte en órdenes de compra en proceso, las cuales se pueden cerrar por los solicitantes asignando los siguientes estados:
+
+            o Recibido: se recibe todo lo pedido.
+	    o Recibido parcial: se recibe parcialmente el pedido y el proveedor terminará de completar la entrega en otro momento.
+	    o Finalizado incompleto: se recibe y finaliza parcial, ya que el proveedor no va a terminar de completar el total del pedido.
+	    o Cancelado: la orden de compra no será entregada.
+•	Fechas 
+
+            o Fecha de la orden: es la fecha que el solicitante solicita la aprobación de un pedido.
+            o Fecha entrega: es la fecha en la que el solicitante espera que el proveedor entregue los productos o servicios, esta fecha es asignada por el solicitante cuando está creando el pedido y puede que no coincida con la respuesta real de los proveedores.
+            o Fecha de aprobación: es la fecha en la que el director de compras aprueba o rechaza la orden de compra.
+            o Fecha último movimiento: es la fecha en la que se cambió por última vez el estado de la orden de compra, en general coincide con la fecha de cierre de las ordenes en proceso con sus diferentes estados.
