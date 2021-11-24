@@ -16,7 +16,6 @@ _Plata_
 
 _Bronce_
 
-```
 
 ### *Production and implementation* 🔧⚙️ Deploy 📦
 
