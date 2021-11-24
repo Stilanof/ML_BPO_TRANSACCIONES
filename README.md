@@ -8,7 +8,7 @@ This project is the final work of a eight weeks journey, in which we try to desi
 
 We implemented a k_means model to segment each transaction at the market platform.
 
-### *Final Clusters* 📋
+## *Final Clusters* 📋
 
 _ORO_
 
@@ -17,7 +17,7 @@ _Plata_
 _Bronce_
 
 
-### *Production and implementation* 🔧⚙️ Deploy 📦
+## *Production and implementation* 🔧⚙️ Deploy 📦
 
 
 
