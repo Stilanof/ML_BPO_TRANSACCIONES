@@ -6,15 +6,13 @@ This project is the final work of a eight weeks journey, in which we try to desi
 
 ## *Let's start* 🚀
 
+![Image text](https://github.com/Stilanof/ML_BPO_TRANSACCIONES/blob/main/process.png)
+
 We implemented a k_means model to segment each transaction at the market platform.
 
 ## *Final Clusters* 📋
 
-_ORO_
-
-_Plata_
-
-_Bronce_
+![Image text](https://github.com/Stilanof/ML_BPO_TRANSACCIONES/blob/main/clusters.png)
 
 
 ## *Production and implementation* 🔧⚙️ Deploy 📦
