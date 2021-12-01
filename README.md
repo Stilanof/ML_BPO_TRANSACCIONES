@@ -1,6 +1,6 @@
 ## *ML_BPO_TRANSACCIONES*
 
-As data scientist we convert data into business values that allow making decisions based on the analysis of behavior in the past, present and future of the operation. 
+As data scientists we convert data into business values that allow making decisions based on the analysis of behavior in the past, present and future of the operation. 
 
 This project is the final work of a eight weeks journey, in which we try to design a Machine Learning product for a local company.  
 
