@@ -6,7 +6,7 @@ This project is the final work of a eight weeks journey, in which we try to desi
 
 ## *Let's start* 🚀
 
-![Image text](https://github.com/Stilanof/ML_BPO_TRANSACCIONES/blob/main/process.png)
+![Image text](https://github.com/Stilanof/ML_BPO_TRANSACCIONES/blob/main/target.png)
 
 We implemented a k_means model to segment each transaction at the market platform.
 
@@ -17,7 +17,7 @@ We implemented a k_means model to segment each transaction at the market platfor
 
 ## *Production and implementation* 🔧⚙️ Deploy 📦
 
-
+![Image text](https://github.com/Stilanof/ML_BPO_TRANSACCIONES/blob/main/architecture.png)
 
 
 
@@ -37,7 +37,6 @@ Take a look at the process! All versions and models tested here (https://github.
 ## *Authors* ✒️
 
 * **Anibal Munera** 
-* **Erika Melisa Gómez** 
 * **Luis Andrés Montoya** 
 * **Mauricio Villegas** 
 * **Susana Tilano** 
