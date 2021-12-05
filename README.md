@@ -22,12 +22,19 @@ elbow_table['Score'] = wcss
 for i in range (1, len(elbow_table)):
 
     elbow_table.loc[i,'Delta1'] = elbow_table.loc[i-1,'Score'] - elbow_table.loc[i,'Score']
+    
 for i in range (2, len(elbow_table)):
+
     elbow_table.loc[i,'Delta2'] = elbow_table.loc[i-1,'Delta1'] - elbow_table.loc[i,'Delta1']
+    
 for i in range (1, len(elbow_table)-1):
+
     elbow_table.loc[i,'Strength'] = elbow_table.loc[i+1,'Delta2'] - elbow_table.loc[i+1,'Delta1']
+    
 for i in range (1, len(elbow_table)-1):
+
     elbow_table.loc[i,'Relative_Strength'] = elbow_table.loc[i,'Strength'] / elbow_table.loc[i,'k']
+    
 elbow_table
 
 ## *Production and implementation* 🔧⚙️ Deploy 📦
