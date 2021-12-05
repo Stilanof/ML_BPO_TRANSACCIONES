@@ -14,9 +14,13 @@ We implemented a k_means model to segment each transaction at the market platfor
 
 ##### select # of cluster based on strength
 elbow_table=pd.DataFrame()
+
 elbow_table['k'] = [1,2,3,4,5,6,7,8,9]
+
 elbow_table['Score'] = wcss
+
 for i in range (1, len(elbow_table)):
+
     elbow_table.loc[i,'Delta1'] = elbow_table.loc[i-1,'Score'] - elbow_table.loc[i,'Score']
 for i in range (2, len(elbow_table)):
     elbow_table.loc[i,'Delta2'] = elbow_table.loc[i-1,'Delta1'] - elbow_table.loc[i,'Delta1']
