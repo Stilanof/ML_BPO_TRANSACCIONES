@@ -13,29 +13,30 @@ We implemented a k_means model to segment each transaction at the market platfor
 ## *Final Clusters* 📋
 
 ##### select # of cluster based on strength
-elbow_table=pd.DataFrame()
 
-elbow_table['k'] = [1,2,3,4,5,6,7,8,9]
+    elbow_table=pd.DataFrame()
 
-elbow_table['Score'] = wcss
+    elbow_table['k'] = [1,2,3,4,5,6,7,8,9]
 
-for i in range (1, len(elbow_table)):
+    elbow_table['Score'] = wcss
+
+    for i in range (1, len(elbow_table)):
 
     elbow_table.loc[i,'Delta1'] = elbow_table.loc[i-1,'Score'] - elbow_table.loc[i,'Score']
     
-for i in range (2, len(elbow_table)):
+    for i in range (2, len(elbow_table)):
 
     elbow_table.loc[i,'Delta2'] = elbow_table.loc[i-1,'Delta1'] - elbow_table.loc[i,'Delta1']
     
-for i in range (1, len(elbow_table)-1):
+    for i in range (1, len(elbow_table)-1):
 
     elbow_table.loc[i,'Strength'] = elbow_table.loc[i+1,'Delta2'] - elbow_table.loc[i+1,'Delta1']
     
-for i in range (1, len(elbow_table)-1):
+    for i in range (1, len(elbow_table)-1):
 
     elbow_table.loc[i,'Relative_Strength'] = elbow_table.loc[i,'Strength'] / elbow_table.loc[i,'k']
     
-elbow_table
+    elbow_table
 
 ## *Production and implementation* 🔧⚙️ Deploy 📦
 
@@ -47,9 +48,9 @@ elbow_table
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* 
-* 
-* 
+* Azure Blob storage  
+* Containers
+* Databricks 
 
 
 ## *Versions* 📌
