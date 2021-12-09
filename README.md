@@ -1,3 +1,5 @@
+# MACHINE LEARNING ALGORITHM TO OPTIMIZE PURCHASE TRANSACTIONS
+
 ## *ML_BPO_TRANSACCIONES*
 
 As data scientists we convert data into business values that allow making decisions based on the analysis of behavior in the past, present and future of the operation. 
