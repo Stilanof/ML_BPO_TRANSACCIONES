@@ -6,6 +6,12 @@ As data scientists we convert data into business values that allow making decisi
 
 This project is the final work of a eight weeks journey, in which we designed a Machine Learning product for a local company.  
 
+####Folders:
+busisness--> definitions of some important variables to take into account.
+stepnotebooks--> work process throughout differnt scenerarios/notebooks.
+model--> final databricks notebooks.
+
+
 ## *Let's start* 🚀
 
 ![Image text](https://github.com/Stilanof/ML_BPO_TRANSACCIONES/blob/main/target.png)
