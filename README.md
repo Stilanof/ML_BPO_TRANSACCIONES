@@ -44,6 +44,8 @@ Procedure:
 
 Take a look at the process! All versions and models tested here (https://github.com/Stilanof/ML_BPO_TRANSACCIONES)
 
+Final presentation here (https://github.com/Stilanof/ML_BPO_TRANSACCIONES/blob/main/presentaci%C3%B3n_final.pdf)
+
 ## *Authors* ✒️
 
 * **Anibal Munera** 
